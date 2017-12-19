@@ -1,0 +1,405 @@
+body{
+	 margin: 0px;
+	 padding: 0px;
+	 font-family:montserrat;
+    }
+.navbar-inverse{
+	        background-color: white;
+}
+
+.logo{
+	          padding: 8px 20px;
+	         }
+
+.navbar-brand img{
+	              height: 35px;
+}
+
+.bname{
+	  
+	  color:#4e4262 !important;
+      font-weight: bold;
+      font-size: x-large;
+}
+
+
+.navigation {
+	         box-shadow:0 1px 3px 0 rgba(27, 36, 50, .15);
+             border-color:#e7e7e7
+	         	
+}
+
+.container1{
+	        padding: 10px 0px;
+}    
+
+.btn{
+	    margin-top: 6px;
+
+}
+
+.combtn{
+	    transition: 0.4s ease-in-out;
+	    font-size: 13px;
+	    margin-right: 10px;
+	    padding: 8px 20px;
+	    background-color:#7e3cd5;
+	    color: white;
+	    border-width: 2px;
+	    border-color: #7e3cd5;
+}
+
+.combtn:hover{
+	        background-color: #8f6bbd;
+	        color: white;
+	        border-color: #7e3cd5;
+}       
+
+.webbtn{
+	    transition: 0.4s ease-in-out;
+	    font-size: 13px;
+	    color: #7e3cd5;
+	    border-color: #7e3cd5;
+	    border-width: 2px;
+	    padding: 8px 20px;
+}
+
+.webbtn:hover{
+	        background-color: #8f6bbd;
+	        color: white;
+	        border-color: #7e3cd5;
+}       
+
+.banr{
+	  	min-height:570px; 
+	  background:linear-gradient(to right, #0b486b,#e46c65);
+     }
+
+.banner-container{
+	               width: 100%;
+	               padding:0;
+
+}
+
+.banr h1{
+	     padding-top: 160px;
+	     text-align: center;
+	     color: white;
+	     font-size: 54px;
+}   
+
+.banr p{
+
+	    text-align: center;
+	    color: white;
+	    padding-top: 60px;
+	    font-size: 17px;
+
+}
+
+.join_div{
+	     text-align: center;
+	     margin-top: 30px;
+}
+
+
+.join{
+	    transition: 0.3s ease-in-out;
+	    font-size: 13px;   
+	    padding: 9px 15px;
+	    background-color:#3a8dcd;
+	    color: white;
+	    border-width: 2px;
+	    border-color: #3a8dcd;
+        }  
+
+.join:hover{
+	        background-color: #8f6bbd;
+	        color: white;
+}        
+
+.join img{
+	      height: 17px;
+	      padding-right: 8px;
+}            
+
+.skills{
+        text-align: center;
+        margin-top: 80px;
+        }   
+
+.skills img{
+	         height: 115px;
+            }
+
+.skills_text{
+	         text-align: center;
+	         color:#504d4d;
+	         margin-top: 25px;
+	         min-height: 270px;
+}    
+
+.skills_text h1{
+	            font-size: 40px;
+	            font-color:black;
+}
+
+.skills_text p{
+	            margin-top: 25px;
+	            font-size:17px;
+}   
+
+.course-container{
+	              min-height: 300px;
+}
+
+.mainbox:hover{
+               text-decoration:none; 
+}
+
+.main_course{ 
+	          transition: 0.3s ease-in-out;
+	          margin: auto;
+	          text-align: center;
+	          flex: wrap;
+	          display: flex;
+	          align-items: center;
+	          list-style-type: none;
+	          width: 100%;
+	          justify-content:center;
+} 
+
+.a_course{ 
+	      color: grey;
+	      width: 35%;
+         }
+
+.b_course{
+	      color: grey;
+	      width: 35%;
+}         
+
+.a_course img{
+	          width: 120px;
+}
+
+.b_course img{
+	          width: 120px;	
+}
+
+.course_btn{  
+	          border-style: solid;
+	          border-width: 3px;
+	          border-color:#6d61e4; 
+	          color: white;
+	          transition: 0.4s ease-in-out;
+	          opacity: 0;
+	          position: absolute;
+	          padding: 11px;
+	          z-index: 1;
+	          background-color: #6d61e4;			
+}
+
+.course_btn:hover{
+	              background-color: white;
+	              color: black;
+	              border-style:solid;
+	              border-width: 3px;
+	              border-color:#6d61e4; 
+}
+
+.main_course:hover .course_btn{  
+                                transform: translatey(-15px);
+	                             opacity: 1;
+	                             
+                              }
+
+.main_course:hover .a_course{
+	                          filter: blur(10px);
+	                          transition: 0.5s ease-in-out;
+                             }         
+
+.main_course:hover .b_course{
+	                          filter: blur(10px);
+	                          transition: 0.5s ease-in-out;
+                             }  
+
+.main_course:hover{
+	             
+	                width: 93%;
+}                                
+
+
+
+
+
+.completecourse_main{
+	                 min-height: 670px;
+	                 background-color:rgb(45, 45, 45);
+}
+
+.co_completecourse{
+	          
+	               min-height: 670px; 
+	               width: 100%;
+	               padding: 0;
+}
+
+
+.completecourse_heada{
+	                 min-height: 200px;
+	                 text-align: center;
+}
+
+.completecourse_heada h1{
+	                     padding-top: 50px;
+	                     color: white;
+
+}
+
+.completecourse_headb{
+	                  min-height: 200px;
+	                  text-align: center;
+                      }
+
+.completecourse_headb h1{
+	                     padding-top: 50px;
+	                     color:white;
+	                    }
+
+.completecourse_itemsa{
+	                 min-height: 600px;
+                      }
+
+.completecourse_itemsb{
+	                  min-height: 600px;
+                      }
+
+.courseitem1{
+	         background-color:white;
+	         padding-left: 0px;
+	         border-radius:20px;
+}                      
+
+.courseitems img{
+	             position: absolute;
+	             margin-top: 3px;
+	             padding: 5px;
+                 border-radius: 100%;
+                 height: 23px;
+                 width: 24px;
+                 background-color:rgb(43, 120, 193);
+}
+
+.courseitems{   
+             border-radius:0px;   
+	         border-style: solid;
+             border-color: #f6f3f3;
+             border-width: 2px;
+             list-style: none;
+             color: #4a4a4a;
+             display: flex;
+             justify-content: space-between;
+             padding: 10px 25px 10px 25px;
+             }
+
+.courseitems p{
+	           margin: 5px 37px 10px;
+}             
+
+.coursebtns{
+	         font-size: 13px;
+	         height: 30px;
+	         padding:3px 19px 3px 19px;
+	         background-color:rgb(43, 120, 193);
+	         border-style:none;
+	         color: white;
+	         border-radius: 15px;
+	         transition: 0.4s ease-in-out; 
+}
+
+#com{
+	 background-color:#f06b41;
+}
+
+.top-border{
+	             border-top-left-radius: 16px;
+                 border-top-right-radius: 16px;   
+	             border-style: solid;
+                 border-color: #f6f3f3;
+                 border-width: 2px;
+
+                }
+
+.bottom-border{
+	            border-bottom-left-radius: 16px;
+                border-bottom-right-radius: 16px;   
+	            border-style: solid;
+                border-color: #f6f3f3;
+                border-width: 2px;
+
+                 }
+
+.product_imgdiva img{
+	                 height:50px;
+}   
+
+.contact-section{
+	             padding:100px 0px 100px 0px;
+}
+.main-form{
+	       margin: auto;
+	       max-width: 575px;
+}             
+
+.form-input{
+	        border: none;
+	        border-bottom:1px solid #7e3cd5;
+	        box-shadow: none;
+	        border-radius:0;
+	        transition: 0.2s ease-in-out;
+	        margin-bottom: 40px;
+} 
+
+.form-input:focus{
+                   box-shadow: none;
+                   border-bottom: 3px solid #7e3cd5;
+}
+
+.form-input:hover .form-input::placeholder{
+	                                       color:orange;
+                                           }
+
+.contact-form h1{
+	              margin-bottom: 40px;
+}
+
+.contact-form p{
+	             margin-bottom: 30px;
+	             font-size: 19px;
+	             color: #656464;
+}
+
+.contact-submit-btn{
+	                 width: 100%;
+	                 background-color: #7e3cd5
+}
+
+.footer{
+	     background:linear-gradient(to right, #136a8a, #267871);
+	     padding:70px 0px 70px 0px; 
+}
+
+.footer-main{
+	          line-height:2;
+}
+
+.footer-main li{
+	          list-style-type: none;
+	          color:#d4d4d4; 
+}
+
+.footer-main h4{
+	             margin-bottom: 20px;
+	             color:#f5f3f3;
+}

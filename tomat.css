@@ -1,0 +1,20 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif,;
+}
+.header{
+	width: 100%;
+	background: royalblue;
+	display: flex;
+}
+.head{
+	width: 60%;
+	background:red;
+	margin: auto;	
+}
+.head-a{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+}
